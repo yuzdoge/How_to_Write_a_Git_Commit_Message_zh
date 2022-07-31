@@ -58,12 +58,13 @@ ac8326d Polish mockito usage
 ## 关于一条好的Git提交信息的七条规则
 > _Keep in mind: [This](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) [has](https://www.git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines) [all](https://github.com/torvalds/subsurface-for-dirk/blob/master/README.md#contributing) [been](http://who-t.blogspot.co.at/2009/12/on-commit-messages.html) [said](https://github.com/erlang/otp/wiki/writing-good-commit-messages) [before](https://github.com/spring-projects/spring-framework/blob/30bce7/CONTRIBUTING.md#format-commit-messages)._
 
-1. [使用空行分隔标题和内容主体](#使用空行分隔标题和内容主体)
-3. [标题第一个单词首字母大写](#标题第一个单词首字母大写)
-4. [标题不要加句号](#标题不要加句号)
-5. [标题使用祈使语气](#标题使用祈使语气)
-6. [主体内容每行不超过72个字符](#主体内容每行不超过72个字符)
-7. [用主体内容解释What，Why，而不是How](#用主体内容解释What，Why，而不是How)
+1. [使用空行分隔标题和内容主体](#1-使用空行分隔标题和内容主体)
+2. [标题限定在50个字符以内](#2-标题限定在50个字符以内)
+3. [标题第一个单词首字母大写](#3-标题第一个单词首字母大写)
+4. [标题不要加句号](#4-标题不要加句号)
+5. [标题使用祈使语气](#5-标题使用祈使语气)
+6. [主体内容每行不超过72个字符](#6-主体内容每行不超过72个字符)
+7. [用主体内容解释What，Why，而不是How](#7-用主体内容解释What，Why，而不是How)
 
 模板：
 ```
