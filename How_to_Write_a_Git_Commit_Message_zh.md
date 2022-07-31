@@ -113,6 +113,7 @@ See also: #456, #789
 ### 1. 使用空行分隔标题和内容主体
 以下内容来自 `git commit` [手册页](https://www.kernel.org/pub/software/scm/git/docs/git-commit.html#_discussion)：
 > Though not required, it’s a good idea to begin the commit message with a single short (less than 50 character) line summarizing the change, followed by a blank line and then a more thorough description. The text up to the first blank line in a commit message is treated as the commit title, and that title is used throughout Git. For example, Git-format-patch(1) turns a commit into email, and it uses the title on the Subject line and the rest of the commit in the body.
+
 > 虽然不是强制的，但最好还是在提交信息的开头用较短（不超过50个字符）的一行话来总结一下变更。接着紧跟一个空行，然后再进行更加详尽的描述。提交信息中，第一个空行上方的文本会被当作是提交的标题，并且这个标题会被整个Git使用。例如，Gitformat-patch(1)将一个提交转换成电子邮件，它会使用标题行的文本作为邮件的标题，将提交剩下的内容作为邮件的主体。
 
 首先，不是每一个提交都需要标题和主体。有时候一行就够了，特别是当变更十分简单，不需要进一步解释时。例如：
@@ -188,7 +189,8 @@ Git中还有很多其他的上下文关系，区分标题和主体内容对它�
 50个字符并不是一个硬性限制，而仅仅是一个经验法则。将标题限定在这个长度内可以保证它们的可读性，并且，这样可以迫使作者花点时间去思考如何以最简洁的方式解释发生了什么事情。
 
 > _Tip: If you’re having a hard time summarizing, you might be committing too many changes at once. Strive for [atomic commits](https://www.freshconsulting.com/atomic-commits/) (a topic for a separate post)._
-> _提示：如果发现总结很困难，你可能一次性提交了过多的更改。努力做到[atomic commits](If you’re having a hard time summarizing)（单独帖子的主题）把！
+
+> _提示：如果发现总结很困难，你可能一次性提交了过多的更改。努力做到atomic commits（单独帖子的主题）把！_
 
 GIthub的UI完全明白这些规定，如果你超过了50个字符的限制，它会提醒你：
 
